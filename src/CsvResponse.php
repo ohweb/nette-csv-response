@@ -12,7 +12,7 @@ use Nette;
  */
 class CsvResponse implements Nette\Application\IResponse
 {
-	use \Nette\SmartObject;
+	use Nette\SmartObject;
 
 
 	/** standard glues */
