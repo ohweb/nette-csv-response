@@ -8,7 +8,7 @@ namespace OHWeb\Application\Responses;
  *
  * @package OHWeb\Application\Responses
  */
-class CsvResponse implements Nette\Application\IResponse
+class CsvResponse implements \Nette\Application\IResponse
 {
 	use \Nette\SmartObject;
 
