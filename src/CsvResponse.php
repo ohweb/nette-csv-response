@@ -2,16 +2,17 @@
 
 namespace OHWeb\Application\Responses;
 
-use Nette;
-
 /**
  * CSV download response.
  * Under New BSD license.
  *
  * @package OHWeb\Application\Responses
  */
-class CsvResponse extends Nette\Object implements Nette\Application\IResponse
+class CsvResponse implements Nette\Application\IResponse
 {
+	use \Nette\SmartObject;
+
+
 	/** standard glues */
 	const COMMA = ',',
 		SEMICOLON = ';',
